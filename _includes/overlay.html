@@ -2,19 +2,29 @@
   <ul class="projects-menu">
     {% for item in site.data.projects %}
       {% capture image %}{{ item.image }}{% endcapture %}
-      {% unless image contains 'http://' or image contains 'https://' %}
-      {% capture image %}{{ site.url }}/{{ image }}{% endcapture %}
-      {% endunless %}
       <li style="background:url({{ image }}) center center no-repeat;">
-        <a href="{{ item.url }}" {% unless item.completed %}class="inactive"{% endunless %} target="_blank" rel="nofollow external">
+        <a href="{{ item.url }}" target="_blank" rel="nofollow external">
           <span>
             {{ item.title }}
-            {% unless item.completed %}
-            <br><em>in progress</em>
-            {% endunless %}
           </span>
         </a>
         </li>
     {% endfor %}
+  </ul>
+</div>
+<div class="overlay2">
+  <ul class="everydays-menu">
+	{% for item in site.data.everydays %}
+	  {% capture thumbnail %}{{ site.url }}/images/work/everydays/{{ item.thumbnail }}{% endcapture %}
+	  <li style="background:url({{ thumbnail }}) center center no-repeat;">
+			<a href="{{ item.image }}">
+			  <span>
+				{{ item.title }}
+				<br><em>{{ item.date }}</em>
+				<br><em>{{ item.tags }}</em>
+			  </span>
+			</a>
+		</li>
+	{% endfor %}
   </ul>
 </div>
