@@ -1,7 +1,7 @@
 ---
 layout: post-everyday
 title:  "EVERYDAYS"
-image: images/work/everydays/2016/1-04-17.png
+image: images/work/everydays/1-04-17.png
 tag:
 - motion graphics
 - blog
