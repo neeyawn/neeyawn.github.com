@@ -1,8 +1,8 @@
 ---
 layout: home
 ---
-# Neeyawn
+# neeyawn
 
-Hi, 
+Hi, I'm Nee
 
 Welcome to my portfolio and blog site.
