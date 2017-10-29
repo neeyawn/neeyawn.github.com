@@ -33,7 +33,7 @@ sass:
 #google.plus:        username
 twitter:            neeyawn
 #facebook:           username
-github:             neeyawn
+github:              username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
@@ -45,14 +45,14 @@ github:             neeyawn
 #steam:              username
 #dribbble:          username
 youtube:           UC-kt-o2SPynjMbl2y5q12mw
-soundcloud:        neeyawn
+soundcloud:         username
 #weibo:             username
 #flickr:            username
 #codepen:           username
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+behance:            username
 
 # Gems
 gems:

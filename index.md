@@ -3,6 +3,6 @@ layout: home
 ---
 # neeyawn
 
-Hi, I'm Nee
+what's up
 
-Welcome to my portfolio and blog site.
+welcome to my portfolio and misc site!
